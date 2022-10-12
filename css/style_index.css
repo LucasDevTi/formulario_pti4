@@ -1,0 +1,44 @@
+#form_title{
+    color: #4D538D;
+}
+#div_title_form{
+    text-align: center;
+}
+
+
+#form_content{
+    box-shadow: 0px 0px 7px 0px #6c6c6cd4;
+}
+
+#name_user_login{
+    text-align: center;
+}
+
+.line{
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.type_animation{
+    animation: letras 2s  500ms normal both;
+}
+
+@keyframes letras{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blinkcursor{
+    from{
+        border-right: 2px solid rgba(10, 1, 1, 0.755);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
